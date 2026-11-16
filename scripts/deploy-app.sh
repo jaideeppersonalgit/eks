@@ -2,7 +2,7 @@
 #!/bin/bash
 set -euo pipefail
 
-AWS_REGION="${AWS_REGION:-ap-south-1}"
+AWS_REGION="${AWS_REGION:-ap-southeast-2}"
 STACK_NAME="eks-lab"
 
 echo "Getting ECR repository..."
